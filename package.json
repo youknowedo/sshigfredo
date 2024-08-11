@@ -1,0 +1,11 @@
+{
+    "name": "sshigfredo",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "air",
+        "ssh": "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null 127.0.0.1 -p 2222",
+        "ssh:knownHosts": "ssh 127.0.0.1 -p 2222"
+    },
+    "author": "Sigfredo",
+    "license": "MIT"
+}
